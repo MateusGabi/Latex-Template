@@ -1,0 +1,87 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{verbatim}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\usepackage[top=3cm, bottom=3cm, left=4cm, right=4cm]{geometry}
+
+\definecolor{verde}{rgb}{0,0.5,0}
+
+%para customizar o código (ver https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings)
+\lstset{language=XML, %defina a linguagem usada no trabalho
+              belowcaptionskip=1\baselineskip,
+                breaklines=true,
+                frame=false,
+                xleftmargin=\parindent,
+                showstringspaces=false,
+                basicstyle=\footnotesize\ttfamily,
+                keywordstyle=\bfseries\color{green!40!black},
+                commentstyle=\itshape\color{purple!40!black},
+                identifierstyle=\color{blue},
+                stringstyle=\color{orange},
+                numbers=left,
+            }
+
+\usepackage{graphicx} %package to manage images
+\graphicspath{ {imagens/} } %define a pasta das imagens
+
+\usepackage[brazil]{babel} 
+
+
+% FIM DE PACOTES
+%=========================================
+
+\title{Title}
+\author{Mateus Gabi Moreira \\
+        \texttt{mateus.moreira@aluno.ufms.br}
+}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introdução} \label{sec}
+
+This document is an example of BibTeX using in bibliography management. Three items are cited: \textit{The \LaTeX\ Companion} book \cite{latexcompanion}, the Einstein journal paper \cite{einstein}, and the Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are \cite{latexcompanion,knuthwebsite}. 
+
+Example by mateus gabi with reference to \ref{sec}.
+
+\subsection{Subsection}
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula libero id purus placerat rutrum et quis arcu. Sed placerat convallis diam, venenatis mattis nulla tempor vitae. Maecenas ante nibh, lacinia sollicitudin nibh vitae, vestibulum molestie lorem. Ut laoreet ut ligula ut vestibulum. Nunc in mi maximus, dictum lectus quis, iaculis purus. Aliquam cursus, leo non placerat elementum, ante nulla mattis lacus, nec cursus tortor ligula sed eros. Aenean porttitor erat ante, viverra venenatis urna accumsan a. Suspendisse efficitur eros et libero pulvinar vulputate. Ut fermentum sed lacus in iaculis. Nullam purus mi, lacinia id vulputate vitae, accumsan ac sem.
+
+Aliquam consequat vitae lorem eu venenatis. Curabitur quis erat quis nulla rutrum commodo et non nunc. Donec lacus urna, blandit sit amet eros eu, fringilla efficitur nunc. Aliquam bibendum lectus ac vehicula ornare. Quisque mi nunc, facilisis et dictum semper, fermentum nec sem. Nulla interdum lobortis neque, sit amet pretium elit iaculis sit amet. Etiam laoreet dui orci. Pellentesque sagittis metus ut dui vulputate lobortis. Etiam sed tempor turpis, vitae pharetra dui. Nullam pellentesque pharetra lorem vitae facilisis. Praesent dolor purus, tristique id maximus at, facilisis ut metus. Nulla facilisi. 
+
+\subsubsection{sub sub section}
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula libero id purus placerat rutrum et quis arcu. Sed placerat convallis diam, venenatis mattis nulla tempor vitae. Maecenas ante nibh, lacinia sollicitudin nibh vitae, vestibulum molestie lorem. Ut laoreet ut ligula ut vestibulum. Nunc in mi maximus, dictum lectus quis, iaculis purus. Aliquam cursus, leo non placerat elementum, ante nulla mattis lacus, nec cursus tortor ligula sed eros. Aenean porttitor erat ante, viverra venenatis urna accumsan a. Suspendisse efficitur eros et libero pulvinar vulputate. Ut fermentum sed lacus in iaculis. Nullam purus mi, lacinia id vulputate vitae, accumsan ac sem.
+
+Aliquam consequat vitae lorem eu venenatis. Curabitur quis erat quis nulla rutrum commodo et non nunc. Donec lacus urna, blandit sit amet eros eu, fringilla efficitur nunc. Aliquam bibendum lectus ac vehicula ornare. Quisque mi nunc, facilisis et dictum semper, fermentum nec sem. Nulla interdum lobortis neque, sit amet pretium elit iaculis sit amet. Etiam laoreet dui orci. Pellentesque sagittis metus ut dui vulputate lobortis. Etiam sed tempor turpis, vitae pharetra dui. Nullam pellentesque pharetra lorem vitae facilisis. Praesent dolor purus, tristique id maximus at, facilisis ut metus. Nulla facilisi. 
+
+\section{Métodos}
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula libero id purus placerat rutrum et quis arcu. Sed placerat convallis diam, venenatis mattis nulla tempor vitae. Maecenas ante nibh, lacinia sollicitudin nibh vitae, vestibulum molestie lorem. Ut laoreet ut ligula ut vestibulum. Nunc in mi maximus, dictum lectus quis, iaculis purus. Aliquam cursus, leo non placerat elementum, ante nulla mattis lacus, nec cursus tortor ligula sed eros. Aenean porttitor erat ante, viverra venenatis urna accumsan a. Suspendisse efficitur eros et libero pulvinar vulputate. Ut fermentum sed lacus in iaculis. Nullam purus mi, lacinia id vulputate vitae, accumsan ac sem.
+
+Aliquam consequat vitae lorem eu venenatis. Curabitur quis erat quis nulla rutrum commodo et non nunc. Donec lacus urna, blandit sit amet eros eu, fringilla efficitur nunc. Aliquam bibendum lectus ac vehicula ornare. Quisque mi nunc, facilisis et dictum semper, fermentum nec sem. Nulla interdum lobortis neque, sit amet pretium elit iaculis sit amet. Etiam laoreet dui orci. Pellentesque sagittis metus ut dui vulputate lobortis. Etiam sed tempor turpis, vitae pharetra dui. Nullam pellentesque pharetra lorem vitae facilisis. Praesent dolor purus, tristique id maximus at, facilisis ut metus. Nulla facilisi. 
+
+\section{Resultados}
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula libero id purus placerat rutrum et quis arcu. Sed placerat convallis diam, venenatis mattis nulla tempor vitae. Maecenas ante nibh, lacinia sollicitudin nibh vitae, vestibulum molestie lorem. Ut laoreet ut ligula ut vestibulum. Nunc in mi maximus, dictum lectus quis, iaculis purus. Aliquam cursus, leo non placerat elementum, ante nulla mattis lacus, nec cursus tortor ligula sed eros. Aenean porttitor erat ante, viverra venenatis urna accumsan a. Suspendisse efficitur eros et libero pulvinar vulputate. Ut fermentum sed lacus in iaculis. Nullam purus mi, lacinia id vulputate vitae, accumsan ac sem.
+
+Aliquam consequat vitae lorem eu venenatis. Curabitur quis erat quis nulla rutrum commodo et non nunc. Donec lacus urna, blandit sit amet eros eu, fringilla efficitur nunc. Aliquam bibendum lectus ac vehicula ornare. Quisque mi nunc, facilisis et dictum semper, fermentum nec sem. Nulla interdum lobortis neque, sit amet pretium elit iaculis sit amet. Etiam laoreet dui orci. Pellentesque sagittis metus ut dui vulputate lobortis. Etiam sed tempor turpis, vitae pharetra dui. Nullam pellentesque pharetra lorem vitae facilisis. Praesent dolor purus, tristique id maximus at, facilisis ut metus. Nulla facilisi. 
+
+\section{Conclusão}
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula libero id purus placerat rutrum et quis arcu. Sed placerat convallis diam, venenatis mattis nulla tempor vitae. Maecenas ante nibh, lacinia sollicitudin nibh vitae, vestibulum molestie lorem. Ut laoreet ut ligula ut vestibulum. Nunc in mi maximus, dictum lectus quis, iaculis purus. Aliquam cursus, leo non placerat elementum, ante nulla mattis lacus, nec cursus tortor ligula sed eros. Aenean porttitor erat ante, viverra venenatis urna accumsan a. Suspendisse efficitur eros et libero pulvinar vulputate. Ut fermentum sed lacus in iaculis. Nullam purus mi, lacinia id vulputate vitae, accumsan ac sem.
+
+Aliquam consequat vitae lorem eu venenatis. Curabitur quis erat quis nulla rutrum commodo et non nunc. Donec lacus urna, blandit sit amet eros eu, fringilla efficitur nunc. Aliquam bibendum lectus ac vehicula ornare. Quisque mi nunc, facilisis et dictum semper, fermentum nec sem. Nulla interdum lobortis neque, sit amet pretium elit iaculis sit amet. Etiam laoreet dui orci. Pellentesque sagittis metus ut dui vulputate lobortis. Etiam sed tempor turpis, vitae pharetra dui. Nullam pellentesque pharetra lorem vitae facilisis. Praesent dolor purus, tristique id maximus at, facilisis ut metus. Nulla facilisi. 
+
+\medskip
+
+\bibliographystyle{unsrt}%Used BibTeX style is unsrt
+\bibliography{sample}
+
+\end{document}
